@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소상공인 참여형 QR 리워드 마케팅 플랫폼 제안</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="presentation">
+        <!-- Slide 1: 표지 -->
+        <div class="slide active" data-slide="1">
+            <div class="slide-content cover-slide">
+                <div class="cover-title">
+                    <h1>소상공인 참여형 오퍼월 기반<br>QR 리워드 마케팅 플랫폼 제안</h1>
+                </div>
+                <div class="cover-subtitle">
+                    <p>소상공인 고정비 부담을 줄이는<br>지속 가능한 부가수익 모델</p>
+                </div>
+                <div class="cover-footer">
+                    <p>박상준 | SEMICOLON'S BELOVED SLAVE</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: 왜 지금 이 기획인가 -->
+        <div class="slide" data-slide="2">
+            <div class="slide-content">
+                <h2 class="slide-title">왜 지금 이 기획인가</h2>
+                <h3 class="slide-subtitle">소상공인의 현재 상황</h3>
+                <div class="content-box">
+                    <div class="two-column-layout">
+                        <div class="left-section">
+                            <div class="section-header">현재의 어려움</div>
+                            <div class="problem-list-new">
+                                <div class="problem-item-new">
+                                    <div class="bullet"></div>
+                                    <div>
+                                        <h4>경기 침체로 매출 변동성 확대</h4>
+                                        <p>소비 심리 위축으로 하루하루 매출이 불안정하며, 다음 달 예측이 어려운 상황</p>
+                                    </div>
+                                </div>
+                                <div class="problem-item-new">
+                                    <div class="bullet"></div>
+                                    <div>
+                                        <h4>고정비 부담은 계속 증가</h4>
+                                        <p>임대료, 인건비, 공과금 등 매월 지출해야 하는 비용은 줄어들지 않고 오히려 상승</p>
+                                    </div>
+                                </div>
+                                <div class="problem-item-new">
+                                    <div class="bullet"></div>
+                                    <div>
+                                        <h4>"매출 성장"보다 "이번 달 버티기"가 목표</h4>
+                                        <p>성장보다는 생존이 우선, 추가 투자는 부담스러운 리스크로 인식</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-section">
+                            <div class="insight-box">
+                                <div class="insight-label">해결 방향</div>
+                                <h3>추가 투자 없이<br>들어오는 수익 구조가 필요</h3>
+                                <p class="insight-desc">
+                                    기존 매출에 영향 없이, 비용 부담 없이, 
+                                    매장 운영만으로 발생하는 보완적 수익 모델
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: 기존 방식의 한계 -->
+        <div class="slide" data-slide="3">
+            <div class="slide-content">
+                <h2 class="slide-title">기존 방식의 한계</h2>
+                <h3 class="slide-subtitle">기존 마케팅/지원 방식의 문제점</h3>
+                <div class="content-box">
+                    <div class="comparison-table">
+                        <div class="comparison-row header-row">
+                            <div class="comparison-cell">방식</div>
+                            <div class="comparison-cell">문제점</div>
+                            <div class="comparison-cell">소상공인 입장</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="comparison-cell">
+                                <strong>온라인 광고<br>(네이버, 카카오 등)</strong>
+                            </div>
+                            <div class="comparison-cell">
+                                <div class="detail-item">비용 선지출 필수</div>
+                                <div class="detail-item">효과 측정 어려움</div>
+                                <div class="detail-item">지속 비용 부담</div>
+                            </div>
+                            <div class="comparison-cell highlight-cell">
+                                "돈만 나가고<br>효과는 모르겠다"
+                            </div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="comparison-cell">
+                                <strong>쿠폰/할인 이벤트</strong>
+                            </div>
+                            <div class="comparison-cell">
+                                <div class="detail-item">마진 감소</div>
+                                <div class="detail-item">재방문 보장 없음</div>
+                                <div class="detail-item">일회성 고객 유입</div>
+                            </div>
+                            <div class="comparison-cell highlight-cell">
+                                "남는 게 없고<br>단골도 안 생긴다"
+                            </div>
+                        </div>
+                        <div class="comparison-row">
+                            <div class="comparison-cell">
+                                <strong>배달 플랫폼 입점</strong>
+                            </div>
+                            <div class="comparison-cell">
+                                <div class="detail-item">높은 수수료 (15~20%)</div>
+                                <div class="detail-item">가격 경쟁 심화</div>
+                                <div class="detail-item">플랫폼 종속</div>
+                            </div>
+                            <div class="comparison-cell highlight-cell">
+                                "매출은 늘어도<br>남는 게 없다"
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conclusion-new">
+                        <div class="conclusion-icon">→</div>
+                        <div class="conclusion-text">
+                            <strong>마케팅이 아닌 '보완 수익' 모델 필요</strong>
+                            <p>투자·할인·수수료 없이, 매장 운영 자체로 수익이 발생하는 구조</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: 우리가 제안하는 관점 -->
+        <div class="slide" data-slide="4">
+            <div class="slide-content">
+                <h2 class="slide-title">우리가 제안하는 관점</h2>
+                <h3 class="slide-subtitle">핵심 관점 전환</h3>
+                <div class="content-box">
+                    <div class="paradigm-shift">
+                        <div class="paradigm-box before">
+                            <div class="paradigm-label">기존 방식</div>
+                            <h3>"광고를 한다"</h3>
+                            <div class="paradigm-desc">
+                                <p>• 비용을 지불하고 고객을 유치</p>
+                                <p>• 매출 증대를 위한 투자</p>
+                                <p>• 효과는 불확실, 위험은 확실</p>
+                            </div>
+                        </div>
+                        <div class="paradigm-arrow">
+                            <div class="arrow-line"></div>
+                            <div class="arrow-text">패러다임 전환</div>
+                        </div>
+                        <div class="paradigm-box after">
+                            <div class="paradigm-label">제안 방식</div>
+                            <h3>"매장 운영 자체가 수익"</h3>
+                            <div class="paradigm-desc">
+                                <p>• 비용 지출 없이 수익 발생</p>
+                                <p>• 고정비 보완을 위한 구조</p>
+                                <p>• 효과는 확실, 위험은 제로</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mechanism-box">
+                        <div class="mechanism-header">작동 메커니즘</div>
+                        <div class="mechanism-flow">
+                            <div class="mechanism-step">
+                                <div class="step-num">1</div>
+                                <div class="step-content">
+                                    <h4>고객이 매장 방문</h4>
+                                    <p>일상적인 매장 이용</p>
+                                </div>
+                            </div>
+                            <div class="mechanism-arrow">→</div>
+                            <div class="mechanism-step">
+                                <div class="step-num">2</div>
+                                <div class="step-content">
+                                    <h4>QR 코드 스캔</h4>
+                                    <p>테이블/계산대 비치된 QR</p>
+                                </div>
+                            </div>
+                            <div class="mechanism-arrow">→</div>
+                            <div class="mechanism-step">
+                                <div class="step-num">3</div>
+                                <div class="step-content">
+                                    <h4>자동 수익 발생</h4>
+                                    <p>소상공인에게 고정 7원 지급</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mechanism-summary">
+                            추가 업무 없음 • 추가 비용 없음 • 지속적 수익 발생
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: 왜 이 모델이 가능한가 -->
+        <div class="slide" data-slide="5">
+            <div class="slide-content">
+                <h2 class="slide-title">왜 이 모델이 가능한가</h2>
+                <h3 class="slide-subtitle">리워드 마케팅(오퍼월)의 본질</h3>
+                <div class="content-box">
+                    <div class="definition-box">
+                        <div class="definition-header">오퍼월(Offerwall)이란?</div>
+                        <p class="definition-text">
+                            사용자가 특정 미션(앱 설치, 회원가입, 설문 참여 등)을 수행하면 
+                            포인트나 리워드를 제공하는 광고 모델입니다. 
+                            광고주는 실제 행동을 유도하고, 사용자는 보상을 받는 구조입니다.
+                        </p>
+                    </div>
+                    <div class="requirement-section">
+                        <h4 class="section-title">리워드 마케팅의 성공 조건</h4>
+                        <div class="requirement-grid">
+                            <div class="requirement-item">
+                                <div class="requirement-number">01</div>
+                                <h4>충분한 광고주 풀</h4>
+                                <p>다양한 광고 캠페인을 지속적으로 제공할 수 있는 광고주 네트워크</p>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="requirement-number">02</div>
+                                <h4>대규모 트래픽</h4>
+                                <p>광고 단가를 유지하고 수익을 창출할 수 있는 충분한 사용자 수</p>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="requirement-number">03</div>
+                                <h4>검증된 시스템</h4>
+                                <p>광고 집행, 성과 추적, 정산을 자동화할 수 있는 기술 인프라</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="critical-point">
+                        <div class="critical-icon">!</div>
+                        <div class="critical-content">
+                            <h4>핵심 포인트</h4>
+                            <p>이 모델은 <strong>"광고주를 찾아야 하는"</strong> 사업이 아니라 
+                            <strong>"이미 광고주를 보유한 사업자만 가능한"</strong> 구조입니다.</p>
+                            <p class="critical-sub">신규 진입자나 소규모 운영자는 광고 단가 확보가 불가능하여 지속 운영이 어렵습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: 운영사의 구조적 강점 -->
+        <div class="slide" data-slide="6">
+            <div class="slide-content">
+                <h2 class="slide-title">운영사의 구조적 강점</h2>
+                <h3 class="slide-subtitle">이미 검증된 광고 인프라</h3>
+                <div class="content-box">
+                    <div class="proof-section">
+                        <div class="proof-header">운영 실적</div>
+                        <div class="proof-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">500만+</div>
+                                <div class="stat-label">일 최대 광고 타수</div>
+                                <div class="stat-desc">안정적인 대규모 트래픽 처리 경험</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number">다수</div>
+                                <div class="stat-label">광고주 네트워크</div>
+                                <div class="stat-desc">상시 운영 중인 캠페인 보유</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number">검증됨</div>
+                                <div class="stat-label">시스템 안정성</div>
+                                <div class="stat-desc">자동 집행 및 정산 시스템</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantage-section">
+                        <h4 class="section-title">왜 이것이 중요한가</h4>
+                        <div class="advantage-grid">
+                            <div class="advantage-item">
+                                <div class="advantage-num">1</div>
+                                <div class="advantage-content">
+                                    <h4>광고 단가 보장</h4>
+                                    <p>기존 광고주 관계로 안정적인 단가 유지</p>
+                                    <p class="advantage-detail">→ 소상공인에게 약속한 7원 지급 가능</p>
+                                </div>
+                            </div>
+                            <div class="advantage-item">
+                                <div class="advantage-num">2</div>
+                                <div class="advantage-content">
+                                    <h4>캠페인 지속성</h4>
+                                    <p>광고가 끊기지 않는 안정적 운영</p>
+                                    <p class="advantage-detail">→ 일시적 이벤트가 아닌 지속 가능 모델</p>
+                                </div>
+                            </div>
+                            <div class="advantage-item">
+                                <div class="advantage-num">3</div>
+                                <div class="advantage-content">
+                                    <h4>기술 인프라</h4>
+                                    <p>새로 개발할 필요 없는 검증된 시스템</p>
+                                    <p class="advantage-detail">→ 빠른 론칭과 안정적 운영 가능</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning-box">
+                        <h4>사업 포지셔닝</h4>
+                        <p><strong>새로운 모델이 아닌, 기존 검증된 온라인 오퍼월의 오프라인 확장</strong></p>
+                        <p class="positioning-detail">온라인에서 작동하던 수익 구조를 소상공인 매장으로 연결하는 것</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: 소상공인이 함께하면 의미가 된다 -->
+        <div class="slide" data-slide="7">
+            <div class="slide-content">
+                <h2 class="slide-title">소상공인이 함께하면 의미가 된다</h2>
+                <h3 class="slide-subtitle">네트워크 효과와 광고주 관점</h3>
+                <div class="content-box">
+                    <div class="network-comparison">
+                        <div class="network-col">
+                            <div class="network-header problem">단일 매장의 한계</div>
+                            <div class="network-content">
+                                <div class="network-item">
+                                    <h4>광고 매체 가치 부족</h4>
+                                    <p>한 매장의 일일 방문객: 약 50~100명</p>
+                                    <p>광고주 입장에서 집행 의미 없음</p>
+                                </div>
+                                <div class="network-item">
+                                    <h4>관리 비용 문제</h4>
+                                    <p>QR 발급, 정산 처리 등 개별 관리</p>
+                                    <p>트래픽 대비 운영 비용이 과다</p>
+                                </div>
+                                <div class="network-item">
+                                    <h4>광고 단가 확보 불가</h4>
+                                    <p>소규모 노출로는 광고주 유치 어려움</p>
+                                    <p>수익 모델 자체가 성립되지 않음</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="network-arrow-col">
+                            <div class="network-vs">VS</div>
+                        </div>
+                        <div class="network-col">
+                            <div class="network-header solution">네트워크 참여 시</div>
+                            <div class="network-content">
+                                <div class="network-item">
+                                    <h4>전국 단위 매체 가치</h4>
+                                    <p>1,000개 매장 × 100명 = 10만 일일 트래픽</p>
+                                    <p>의미 있는 광고 매체로 인식</p>
+                                </div>
+                                <div class="network-item">
+                                    <h4>효율적 관리 구조</h4>
+                                    <p>통합 시스템으로 자동화 관리</p>
+                                    <p>규모의 경제 달성</p>
+                                </div>
+                                <div class="network-item">
+                                    <h4>안정적 광고 단가</h4>
+                                    <p>대규모 트래픽으로 광고주 확보</p>
+                                    <p>지속 가능한 수익 모델 완성</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="network-conclusion">
+                        <div class="conclusion-icon-new">핵심</div>
+                        <div class="conclusion-text-new">
+                            <h4>개별 매장은 작지만, 집합은 강력한 광고 매체</h4>
+                            <p>소상공인이 많이 참여할수록 → 광고 가치 상승 → 개별 소상공인 수익 안정성 증가</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: 서비스 구조 한 장 요약 -->
+        <div class="slide" data-slide="8">
+            <div class="slide-content">
+                <h2 class="slide-title">서비스 구조 한 장 요약</h2>
+                <h3 class="slide-subtitle">5개 주체의 역할과 이익</h3>
+                <div class="content-box">
+                    <div class="ecosystem-diagram">
+                        <div class="ecosystem-center">
+                            <div class="center-circle">QR<br>리워드<br>플랫폼</div>
+                        </div>
+                        <div class="ecosystem-participants">
+                            <div class="participant-item">
+                                <div class="participant-circle p1">운영사</div>
+                                <div class="participant-info">
+                                    <h4>역할</h4>
+                                    <p>• 오퍼월 시스템 운영</p>
+                                    <p>• 광고주와 계약 관리</p>
+                                    <p>• 자동 정산 처리</p>
+                                    <h4>이익</h4>
+                                    <p>• 기존 광고 트래픽 확장</p>
+                                    <p>• 오프라인 매체 확보</p>
+                                </div>
+                            </div>
+                            <div class="participant-item">
+                                <div class="participant-circle p2">소상공인</div>
+                                <div class="participant-info">
+                                    <h4>역할</h4>
+                                    <p>• 매장에 QR 부착</p>
+                                    <p>• 오프라인 광고 매체</p>
+                                    <h4>이익</h4>
+                                    <p>• 고객 1명당 고정 7원</p>
+                                    <p>• 비용 없는 부가수익</p>
+                                </div>
+                            </div>
+                            <div class="participant-item">
+                                <div class="participant-circle p3">일반 고객</div>
+                                <div class="participant-info">
+                                    <h4>역할</h4>
+                                    <p>• QR 스캔 및 참여</p>
+                                    <p>• 광고 미션 수행</p>
+                                    <h4>이익</h4>
+                                    <p>• 즉시 포인트 획득 (1~8원)</p>
+                                    <p>• 재미있는 리워드 경험</p>
+                                </div>
+                            </div>
+                            <div class="participant-item">
+                                <div class="participant-circle p4">광고주</div>
+                                <div class="participant-info">
+                                    <h4>역할</h4>
+                                    <p>• 광고 미션 제공</p>
+                                    <p>• 광고 비용 지불</p>
+                                    <h4>이익</h4>
+                                    <p>• 오프라인 고객 유입</p>
+                                    <p>• 실제 행동 기반 광고</p>
+                                </div>
+                            </div>
+                            <div class="participant-item">
+                                <div class="participant-circle p5">소상공인협회</div>
+                                <div class="participant-info">
+                                    <h4>역할</h4>
+                                    <p>• 참여 매장 모집</p>
+                                    <p>• 신뢰 기반 홍보</p>
+                                    <p>• 공동 기부 주체</p>
+                                    <h4>이익</h4>
+                                    <p>• 회원 실질 수익 창출</p>
+                                    <p>• 사회적 가치 실현</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="win-win-box">
+                        <h4>Win-Win 구조</h4>
+                        <p>모든 참여자가 명확한 이익을 얻으며, 누구도 손해를 보지 않는 지속 가능한 생태계</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: 소상공인 참여 흐름 -->
+        <div class="slide" data-slide="9">
+            <div class="slide-content">
+                <h2 class="slide-title">소상공인 참여 흐름</h2>
+                <h3 class="slide-subtitle">5단계로 완성되는 수익 구조</h3>
+                <div class="content-box">
+                    <div class="process-flow">
+                        <div class="process-step">
+                            <div class="process-number">STEP 1</div>
+                            <div class="process-content">
+                                <h4>협회를 통한 안내</h4>
+                                <p class="process-main">소상공인협회에서 제공하는 안내 자료 확인</p>
+                                <div class="process-details">
+                                    <p>• 사업 설명 및 수익 구조 안내</p>
+                                    <p>• 비용 없음, 리스크 없음 확인</p>
+                                    <p>• 참여 의사 결정</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-arrow">▼</div>
+                        <div class="process-step">
+                            <div class="process-number">STEP 2</div>
+                            <div class="process-content">
+                                <h4>온라인 가입 및 QR 발급</h4>
+                                <p class="process-main">운영사 웹사이트 접속 → 간단한 회원가입</p>
+                                <div class="process-details">
+                                    <p>• 매장 정보 입력 (상호명, 업종, 주소)</p>
+                                    <p>• 정산 계좌 등록</p>
+                                    <p>• 매장별 고유 QR 코드 자동 생성</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-arrow">▼</div>
+                        <div class="process-step">
+                            <div class="process-number">STEP 3</div>
+                            <div class="process-content">
+                                <h4>매장 내 QR 부착</h4>
+                                <p class="process-main">발급받은 QR을 인쇄하여 매장 내 눈에 띄는 곳에 부착</p>
+                                <div class="process-details">
+                                    <p>• 권장 위치: 계산대, 테이블, 입구</p>
+                                    <p>• 안내 문구: "QR 찍고 포인트 받아가세요"</p>
+                                    <p>• 크기: A4 또는 A5 (자유)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-arrow">▼</div>
+                        <div class="process-step">
+                            <div class="process-number">STEP 4</div>
+                            <div class="process-content">
+                                <h4>고객 참여 발생</h4>
+                                <p class="process-main">매장 방문 고객이 QR 스캔 → 자동으로 리워드 지급</p>
+                                <div class="process-details">
+                                    <p>• 고객: 즉시 포인트 획득 (1~8원)</p>
+                                    <p>• 소상공인: 고정 7원 적립</p>
+                                    <p>• 기부금: 1원 자동 적립</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-arrow">▼</div>
+                        <div class="process-step">
+                            <div class="process-number">STEP 5</div>
+                            <div class="process-content">
+                                <h4>자동 정산 및 수익 확인</h4>
+                                <p class="process-main">월 1회 자동 정산 → 등록한 계좌로 입금</p>
+                                <div class="process-details">
+                                    <p>• 실시간 대시보드에서 일일 참여 수 확인</p>
+                                    <p>• 월말 자동 정산 (익월 초 입금)</p>
+                                    <p>• 별도 신청 절차 없음</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simplicity-box">
+                        <h4>핵심 메시지</h4>
+                        <p><strong>QR만 붙여두면 수익 발생</strong> — 추가 업무, 추가 비용, 추가 관리 일체 없음</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: 수익 구조 -->
+        <div class="slide" data-slide="10">
+            <div class="slide-content">
+                <h2 class="slide-title">수익 구조 (1회 참여 기준)</h2>
+                <h3 class="slide-subtitle">투명하고 지속 가능한 비용 설계</h3>
+                <div class="content-box">
+                    <div class="revenue-breakdown">
+                        <div class="breakdown-header">
+                            <h4>광고 수익 15원 기준 분배</h4>
+                            <p>고객 1명이 QR을 스캔하면 광고주로부터 약 15원의 수익이 발생합니다. 이를 아래와 같이 분배합니다.</p>
+                        </div>
+                        <div class="breakdown-visual">
+                            <div class="breakdown-item customer">
+                                <div class="breakdown-bar" style="width: 33%;">
+                                    <span class="bar-label">고객 리워드</span>
+                                </div>
+                                <div class="breakdown-details">
+                                    <div class="amount-large">1 ~ 8원</div>
+                                    <div class="amount-note">(평균 5원)</div>
+                                    <p>랜덤 지급으로 복권 재미 제공</p>
+                                    <p class="detail-sub">• 대부분: 1~8원 랜덤</p>
+                                    <p class="detail-sub">• 극소수: 10,000원 또는 100,000원 당첨</p>
+                                    <p class="detail-sub">• 평균 기대값: 5원으로 통제</p>
+                                </div>
+                            </div>
+                            <div class="breakdown-item merchant">
+                                <div class="breakdown-bar" style="width: 47%;">
+                                    <span class="bar-label">소상공인 지급</span>
+                                </div>
+                                <div class="breakdown-details">
+                                    <div class="amount-large">고정 7원</div>
+                                    <div class="amount-note">(변동 없음)</div>
+                                    <p>고객 참여 1회당 무조건 지급</p>
+                                    <p class="detail-sub">• 고객 당첨 금액과 무관하게 항상 7원</p>
+                                    <p class="detail-sub">• 월말 자동 정산 후 입금</p>
+                                    <p class="detail-sub">• 별도 신청 없이 자동 처리</p>
+                                </div>
+                            </div>
+                            <div class="breakdown-item donation">
+                                <div class="breakdown-bar" style="width: 7%;">
+                                    <span class="bar-label">기부</span>
+                                </div>
+                                <div class="breakdown-details">
+                                    <div class="amount-large">1원</div>
+                                    <div class="amount-note">(자동 적립)</div>
+                                    <p>협회 명의로 누적 후 기부</p>
+                                    <p class="detail-sub">• 개별 매장이 아닌 협회 공동 명의</p>
+                                    <p class="detail-sub">• 월/분기 단위 사회 기부</p>
+                                    <p class="detail-sub">• 참여 매장 모두에게 기부 명분 부여</p>
+                                </div>
+                            </div>
+                            <div class="breakdown-item operator">
+                                <div class="breakdown-bar" style="width: 13%;">
+                                    <span class="bar-label">운영사</span>
+                                </div>
+                                <div class="breakdown-details">
+                                    <div class="amount-large">나머지</div>
+                                    <div class="amount-note">(약 2원)</div>
+                                    <p>시스템 운영 및 광고주 관리</p>
+                                    <p class="detail-sub">• 서버 및 시스템 유지</p>
+                                    <p class="detail-sub">• 광고주 계약 및 관리</p>
+                                    <p class="detail-sub">• 정산 자동화 처리</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="revenue-example">
+                        <h4>실제 수익 예시 (소상공인 기준)</h4>
+                        <div class="example-grid">
+                            <div class="example-item">
+                                <div class="example-label">일 10명 참여 시</div>
+                                <div class="example-calc">10명 × 7원 = <strong>70원/일</strong></div>
+                                <div class="example-monthly">월 약 <strong>2,100원</strong></div>
+                            </div>
+                            <div class="example-item">
+                                <div class="example-label">일 30명 참여 시</div>
+                                <div class="example-calc">30명 × 7원 = <strong>210원/일</strong></div>
+                                <div class="example-monthly">월 약 <strong>6,300원</strong></div>
+                            </div>
+                            <div class="example-item">
+                                <div class="example-label">일 50명 참여 시</div>
+                                <div class="example-calc">50명 × 7원 = <strong>350원/일</strong></div>
+                                <div class="example-monthly">월 약 <strong>10,500원</strong></div>
+                            </div>
+                        </div>
+                        <p class="example-note">※ 작은 금액이지만, 전기요금·통신비 등 일부 고정비 보전에 실질적 도움</p>
+                    </div>
+                    <div class="sustainability-box">
+                        <h4>지속 가능성</h4>
+                        <p>광고 수익 내에서만 분배하므로 <strong>운영사는 손실 없음</strong>, 모든 참여자는 확실한 이익</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: 소상공인과 협회의 가치 -->
+        <div class="slide" data-slide="11">
+            <div class="slide-content">
+                <h2 class="slide-title">소상공인과 협회의 가치</h2>
+                <h3 class="slide-subtitle">각 주체가 얻는 실질적 혜택</h3>
+                <div class="content-box">
+                    <div class="value-section">
+                        <div class="value-column">
+                            <div class="value-header">소상공인에게</div>
+                            <div class="value-content">
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">01</div>
+                                    <div class="benefit-text">
+                                        <h4>비용 부담 제로</h4>
+                                        <p>가입비, 월 이용료, 광고비 등 일체의 비용 없음</p>
+                                        <p class="benefit-detail">기존 마케팅과 달리 선지출 리스크가 전혀 없는 구조</p>
+                                    </div>
+                                </div>
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">02</div>
+                                    <div class="benefit-text">
+                                        <h4>추가 업무 제로</h4>
+                                        <p>QR 부착 후에는 아무것도 하지 않아도 됨</p>
+                                        <p class="benefit-detail">광고 관리, 고객 응대, 정산 신청 등 일체의 추가 업무 없음</p>
+                                    </div>
+                                </div>
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">03</div>
+                                    <div class="benefit-text">
+                                        <h4>확실한 수익 보장</h4>
+                                        <p>고객 1명 참여 = 무조건 7원</p>
+                                        <p class="benefit-detail">효과 측정 필요 없이, 매월 계좌로 자동 입금되는 확실한 현금</p>
+                                    </div>
+                                </div>
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">04</div>
+                                    <div class="benefit-text">
+                                        <h4>사회적 이미지 개선</h4>
+                                        <p>자동 기부 참여로 사회 공헌 이미지 확보</p>
+                                        <p class="benefit-detail">"우리 매장도 지역 사회 기부에 동참합니다" 스토리 활용 가능</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="value-column">
+                            <div class="value-header">협회에게</div>
+                            <div class="value-content">
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">01</div>
+                                    <div class="benefit-text">
+                                        <h4>회원 실질 수익 창출</h4>
+                                        <p>단순 안내가 아닌 실제 현금 수익을 만들어주는 사업</p>
+                                        <p class="benefit-detail">회원들에게 체감되는 복지 혜택 제공으로 협회 가치 상승</p>
+                                    </div>
+                                </div>
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">02</div>
+                                    <div class="benefit-text">
+                                        <h4>복지형 사업 모델 확보</h4>
+                                        <p>회원 부담 없이 운영 가능한 복지 프로그램</p>
+                                        <p class="benefit-detail">예산 투입 없이도 회원 지원 사업 실적 확보</p>
+                                    </div>
+                                </div>
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">03</div>
+                                    <div class="benefit-text">
+                                        <h4>사회적 가치 실현</h4>
+                                        <p>협회 명의로 진행되는 공동 기부 활동</p>
+                                        <p class="benefit-detail">지역 사회 기여 및 ESG 경영 스토리 확보</p>
+                                    </div>
+                                </div>
+                                <div class="value-benefit">
+                                    <div class="benefit-icon">04</div>
+                                    <div class="benefit-text">
+                                        <h4>대외 홍보 효과</h4>
+                                        <p>혁신적 소상공인 지원 사례로 언론 홍보 가능</p>
+                                        <p class="benefit-detail">지자체, 공공기관 협업 확대 기회</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mutual-benefit-box">
+                        <h4>상호 시너지</h4>
+                        <p>소상공인은 실질 수익을, 협회는 신뢰와 영향력을 얻는 <strong>지속 가능한 파트너십</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: 요약 및 제안 -->
+        <div class="slide" data-slide="12">
+            <div class="slide-content">
+                <h2 class="slide-title">요약 및 제안</h2>
+                <div class="content-box">
+                    <div class="final-summary">
+                        <div class="summary-title">QR 하나로 만드는 Win-Win 생태계</div>
+                        <div class="summary-participants">
+                            <div class="summary-participant">
+                                <h4>소상공인</h4>
+                                <p>비용 없이 발생하는<br>고정 부가수익</p>
+                            </div>
+                            <div class="summary-divider">+</div>
+                            <div class="summary-participant">
+                                <h4>일반 고객</h4>
+                                <p>복권 같은 재미와<br>즉시 보상</p>
+                            </div>
+                            <div class="summary-divider">+</div>
+                            <div class="summary-participant">
+                                <h4>협회</h4>
+                                <p>회원 복지와<br>사회적 가치</p>
+                            </div>
+                            <div class="summary-divider">+</div>
+                            <div class="summary-participant">
+                                <h4>운영사</h4>
+                                <p>안정적인<br>광고 트래픽</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="action-plan">
+                        <h3>다음 단계 제안</h3>
+                        <div class="action-steps">
+                            <div class="action-step">
+                                <div class="action-number">STEP 1</div>
+                                <div class="action-content">
+                                    <h4>협회 주도 파일럿 운영</h4>
+                                    <p>특정 지역 또는 업종을 선정하여 시범 운영</p>
+                                    <p class="action-detail">• 참여 매장: 100~300개 목표</p>
+                                    <p class="action-detail">• 운영 기간: 3개월</p>
+                                </div>
+                            </div>
+                            <div class="action-step">
+                                <div class="action-number">STEP 2</div>
+                                <div class="action-content">
+                                    <h4>성과 측정 및 피드백</h4>
+                                    <p>실제 참여율, 수익 발생액, 만족도 조사</p>
+                                    <p class="action-detail">• 월별 리포트 공유</p>
+                                    <p class="action-detail">• 개선 사항 반영</p>
+                                </div>
+                            </div>
+                            <div class="action-step">
+                                <div class="action-number">STEP 3</div>
+                                <div class="action-content">
+                                    <h4>전국 확대 및 홍보</h4>
+                                    <p>성공 사례 기반 전국 단위 확장</p>
+                                    <p class="action-detail">• 공동 기부 실행 및 언론 배포</p>
+                                    <p class="action-detail">• 지자체 협업 모델 제안</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="closing-message">
+                        <div class="closing-label">핵심 메시지</div>
+                        <div class="closing-quote">
+                            <p>"이 사업은 소상공인에게</p>
+                            <p>뭘 하라고 요구하지 않습니다.</p>
+                            <p class="closing-emphasis">그냥 장사를 하시면 됩니다."</p>
+                        </div>
+                        <div class="closing-sub">
+                            <p>투자도, 할인도, 추가 업무도 없이</p>
+                            <p>매장 운영 자체가 수익이 되는 구조</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button class="nav-btn prev" id="prevBtn">‹</button>
+        <div class="slide-indicator" id="slideIndicator">1 / 12</div>
+        <button class="nav-btn next" id="nextBtn">›</button>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
